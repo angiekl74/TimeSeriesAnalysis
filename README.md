@@ -1,0 +1,2 @@
+# TimeSeriesAnalysis
+ARIMA / SARIMA model
