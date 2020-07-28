@@ -22,6 +22,9 @@ sales<-ts(shampoo$sales)
 # Install forecast package
 install.packages("forecast")
 
+# start the package
+library("forecast")
+
 # Find optimal model
 salesOPT<-auto.arima(sales)
 
